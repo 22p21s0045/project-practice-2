@@ -6,7 +6,7 @@
     >
       CIRCLE
     </p>
-    <div class="hidden lg:flex font-medium lg:space-x-5">
+    <div class="hidden lg:flex font-medium lg:space-x-16">
       <button>Features</button>
       <button>Pricing</button>
       <button>About Us</button>
