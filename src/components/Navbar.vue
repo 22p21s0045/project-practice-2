@@ -1,12 +1,21 @@
 <template>
-  <div alt="container " class="p-7 flex justify-between ">
+  <div alt="container " class="p-7 flex justify-between lg:justify-between">
     <p
       class="font-jarkata font-extrabold tracking-widest"
       style="letter-spacing: 3px"
     >
       CIRCLE
     </p>
-    <button>
+    <div class="hidden lg:flex font-medium lg:space-x-5">
+      <button>Features</button>
+      <button>Pricing</button>
+      <button>About Us</button>
+    </div>
+    <div class="lg:flex lg:space-x-5  hidden">
+        <button class="font-medium">Customer Login</button>
+        <button class="bg-black text-white rounded  w-28 h-11">Sign up</button>
+    </div>
+    <button class="lg:hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -21,6 +30,7 @@
       </svg>
     </button>
   </div>
+  
 </template>
 
 <script setup>
